@@ -39,4 +39,13 @@ collections:
             fields:
               - {label: "English text", name: "en_text", widget: "string"}
               - {label: "Greek text", name: "gr_text", widget: "string"}
+          -
+            label: "Header settings"
+            name: "header_content"
+            widget: "object"
+            fields:
+              - {label: "English intro text", name: "en_text", widget: "text"}
+              - {label: "Greek intro text", name: "gr_text", widget: "text"}
+              - {label: "English button text", name: "en_text", widget: "string"}
+              - {label: "Greek button text", name: "gr_text", widget: "string"}
 
