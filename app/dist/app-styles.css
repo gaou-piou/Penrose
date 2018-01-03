@@ -206,21 +206,22 @@ wbr::after {
 .pointer {
   cursor: pointer;
 }
-.text-thin,
-.text font-weight: 100,
-.text-light {
-  font-weight: 300;
+.text-ultralight {
+  font-weight: 200;
 }
 .text-regular {
-  font-weight: 400;
+  font-weight: normal;
 }
 .text-medium {
   font-weight: 500;
 }
-.text-bold {
-  font-weight: 700;
+.text-demibold {
+  font-weight: 600;
 }
-.text-black {
+.text-bold {
+  font-weight: bold;
+}
+.text-heavy {
   font-weight: 900;
 }
 .text--align-center {
@@ -259,7 +260,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
 }
 html {
   font-size: 12px;
@@ -285,6 +286,14 @@ a {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+.anim_hide {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s ease-out;
+  transition: opacity 0.15s ease-out;
+}
+.anim_hide.anim_ready {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=app-styles.css.map*/
