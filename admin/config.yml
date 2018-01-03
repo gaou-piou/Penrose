@@ -28,79 +28,29 @@ collections:
       preview: false
     files:
       -
-        label: "Pages"
-        name: "pages"
-        delete: false
-        editor: 
-          preview: false
+        label: "Penrose page"
+        name: "penrose"
+        file: "site/content/penrose_en.json"
         fields:
           -
-            label: "Penrose page"
-            name: "penrose"
-            file: "site/content/penrose_en.json"
-            fields:
-              -
-                label: "Navigation button text"
-                name: "nav_content"
-                widget: "string"
-              -
-                label: "Header settings"
-                name: "header_content"
-                widget: "object"
-                fields:
-                  - {label: "Intro text", name: "intro", widget: "markdown"}
-                  - {label: "Button text", name: "btn", widget: "string"}
-              -
-                label: "Page settings"
-                name: "page_content"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Content", name: "content", widget: "markdown"}
+            label: "Navigation button text"
+            name: "nav_content"
+            widget: "string"
           -
-            label: "GDPR page"
-            name: "gdbr"
-            file: "site/content/gdbr_en.json"
-  -
-    label: "Greek site"
-    name: "gr_site"
-    delete: false
-    extension: "json"
-    editor: 
-      preview: false
-    files:
+            label: "Header settings"
+            name: "header_content"
+            widget: "object"
+            fields:
+              - {label: "Intro text", name: "intro", widget: "markdown"}
+              - {label: "Button text", name: "btn", widget: "string"}
+          -
+            label: "Page settings"
+            name: "page_content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
       -
-        label: "Pages"
-        name: "pages"
-        delete: false
-        editor: 
-          preview: false
-        fields:
-          -
-            label: "Penrose page"
-            name: "penrose"
-            file: "site/content/penrose_gr.json"
-            fields:
-              -
-                label: "Navigation button text"
-                name: "nav_content"
-                widget: "string"
-              -
-                label: "Header settings"
-                name: "header_content"
-                widget: "object"
-                fields:
-                  - {label: "Intro text", name: "intro", widget: "markdown"}
-                  - {label: "Button text", name: "btn", widget: "string"}
-              -
-                label: "Page settings"
-                name: "page_content"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Content", name: "content", widget: "markdown"}
-          -
-            label: "GDPR page"
-            name: "gdbr"
-            file: "site/content/gdbr_gr.json"
-
+        label: "GDPR page"
+        name: "gdbr"
+        file: "site/content/gdbr_en.json"
