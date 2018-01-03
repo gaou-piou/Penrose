@@ -17,9 +17,6 @@ collections:
         name  : "general"
         file  : "site/_data/settings.json"
         fields: 
-          -
-            {
-              label : "Global site title", 
-              name  : "site_title", 
-              widget: "string"
-            }
+          - {label : "Global site title", name  : "site_title", widget: "string"}
+          - {label : "Global site description", name  : "site_description", widget: "string"}
+
