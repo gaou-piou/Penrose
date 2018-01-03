@@ -8,13 +8,14 @@ collections:
     label : "Settings"
     name  : "settings"
     delete: false
+    extension: "json"
     editor: 
       preview: false
     files:
       -
         label : "Site Settings"
         name  : "general"
-        file  : "site/_data/settings.yml"
+        file  : "site/_data/settings.json"
         fields: 
           -
             {
