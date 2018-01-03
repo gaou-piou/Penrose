@@ -205,6 +205,10 @@ wbr::after {
 }
 .pointer {
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .text-ultralight {
   font-weight: 200;
@@ -232,6 +236,9 @@ wbr::after {
 }
 .text--color-white {
   color: #fff;
+}
+.text--size-14 {
+  font-size: 1.166666666666667rem;
 }
 .container {
   width: 100%;
@@ -261,6 +268,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Avenir Next', sans-serif;
+  line-height: 1.25;
 }
 html {
   font-size: 12px;
@@ -287,13 +295,14 @@ a {
       -ms-user-select: none;
           user-select: none;
 }
-.anim_hide {
-  opacity: 0;
+.animready-enter-active,
+.animready-leave-active {
   -webkit-transition: opacity 0.15s ease-out;
   transition: opacity 0.15s ease-out;
 }
-.anim_hide.anim_ready {
-  opacity: 1;
+.animready-enter,
+.animready-leave-to {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=app-styles.css.map*/
