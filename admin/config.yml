@@ -23,14 +23,14 @@ collections:
     label: "English site"
     name: "en_site"
     delete: false
+    extension: "json"
     editor: 
-          preview: false
+      preview: false
     files:
       -
         label: "Pages"
         name: "pages"
         delete: false
-        extension: "json"
         editor: 
           preview: false
         fields:
@@ -65,14 +65,14 @@ collections:
     label: "Greek site"
     name: "gr_site"
     delete: false
+    extension: "json"
     editor: 
-          preview: false
+      preview: false
     files:
       -
         label: "Pages"
         name: "pages"
         delete: false
-        extension: "json"
         editor: 
           preview: false
         fields:
