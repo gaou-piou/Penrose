@@ -54,3 +54,8 @@ collections:
         label: "GDPR page"
         name: "gdbr"
         file: "site/content/gdbr_en.json"
+        fields:
+          -
+            label: "Navigation button text"
+            name: "nav_content"
+            widget: "string"
