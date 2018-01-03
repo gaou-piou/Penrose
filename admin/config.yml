@@ -20,41 +20,42 @@ collections:
           - {label: "Global site title", name: "site_title", widget: "string"}
           - {label: "Global site description", name: "site_description", widget: "string"}
   -
-    label: "Pages"
-    name: "pages"
-    delete: false
-    extension: "json"
-    editor: 
-      preview: false
-    files:
+    label: "English site"
+    name: "en_site"
+    folder: "site/content"
+    create: false
+    filter: {field: "language", value: "en"}
+    fields:
+      - {label: "Language", name: "language", widget: "select", options: ["en", "gr"]}
       -
-        label: "Penrose page"
-        name: "penrose"
-        file: "site/content/penrose.json"
-        fields:
+        label: "Pages"
+        name: "pages"
+        delete: false
+        extension: "json"
+        editor: 
+          preview: false
+        files:
           -
-            label: "Navigation button text"
-            name: "nav_content"
-            widget: "object"
+            label: "Penrose page"
+            name: "penrose"
+            file: "site/content/penrose_en.json"
             fields:
-              - {label: "English text", name: "en_text", widget: "string"}
-              - {label: "Greek text", name: "gr_text", widget: "string"}
-          -
-            label: "Header settings"
-            name: "header_content"
-            widget: "object"
-            fields:
-              - {label: "English intro text", name: "en_intro", widget: "markdown"}
-              - {label: "Greek intro text", name: "gr_intro", widget: "markdown"}
-              - {label: "English button text", name: "en_btn", widget: "string"}
-              - {label: "Greek button text", name: "gr_btn", widget: "string"}
-          -
-            label: "Page settings"
-            name: "page_content"
-            widget: "object"
-            fields:
-              - {label: "English title", name: "en_title", widget: "string"}
-              - {label: "Greek title", name: "gr_title", widget: "string"}
-              - {label: "English content", name: "en_content", widget: "markdown"}
-              - {label: "Greek content", name: "gr_content", widget: "markdown"}
+              -
+                label: "Navigation button text"
+                name: "nav_content"
+                widget: "string"
+              -
+                label: "Header settings"
+                name: "header_content"
+                widget: "object"
+                fields:
+                  - {label: "Intro text", name: "intro", widget: "markdown"}
+                  - {label: "Button text", name: "btn", widget: "string"}
+              -
+                label: "Page settings"
+                name: "page_content"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Content", name: "content", widget: "markdown"}
 
