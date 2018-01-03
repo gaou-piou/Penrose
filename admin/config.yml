@@ -19,4 +19,22 @@ collections:
         fields: 
           - {label : "Global site title", name  : "site_title", widget: "string"}
           - {label : "Global site description", name  : "site_description", widget: "string"}
+  -
+    label: "Pages"
+    name: "pages"
+    files:
+      -
+        label: "Penrose page"
+        name: "penrose"
+        file: "site/content/penrose.json"
+        fields:
+          -
+            {
+              label: "Navigation button text",
+              name: "nav_content",
+              widget: "object",
+              fields:
+                - {label: "English text", name: "en_text", widget: "string"}
+                - {label: "Greek text", name: "gr_text", widget: "string"}
+            }
 
