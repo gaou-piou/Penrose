@@ -29,9 +29,9 @@ collections:
         file: "site/content/penrose.json"
         fields:
           -
-            label: "Navigation button text",
-            name: "nav_content",
-            widget: "object",
+            label: "Navigation button text"
+            name: "nav_content"
+            widget: "object"
             fields:
               - {label: "English text", name: "en_text", widget: "string"}
               - {label: "Greek text", name: "gr_text", widget: "string"}
