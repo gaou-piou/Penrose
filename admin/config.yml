@@ -1,0 +1,20 @@
+backend:
+  name      : github
+  repo      : gaou-piou/Penrose
+  branch    : master
+media_folder: "images/uploads"
+collections:
+  -
+    label: "Settings"
+    name: "settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      -
+        label: "Site Settings"
+        name: "general"
+        file: "site/_data/settings.yml"
+        fields:
+          -
+            {label: "Global site title", name: "site_title", widget: "string"}
