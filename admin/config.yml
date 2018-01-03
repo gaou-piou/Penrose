@@ -34,7 +34,7 @@ collections:
         extension: "json"
         editor: 
           preview: false
-        files:
+        fields:
           -
             label: "Penrose page"
             name: "penrose"
@@ -58,6 +58,10 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Content", name: "content", widget: "markdown"}
+          -
+            label: "GDPR page"
+            name: "gdbr"
+            file: "site/content/gdbr_en.json"
   -
     label: "Greek site"
     name: "gr_site"
@@ -73,7 +77,7 @@ collections:
         extension: "json"
         editor: 
           preview: false
-        files:
+        fields:
           -
             label: "Penrose page"
             name: "penrose"
@@ -97,4 +101,8 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Content", name: "content", widget: "markdown"}
+          -
+            label: "GDPR page"
+            name: "gdbr"
+            file: "site/content/gdbr_gr.json"
 
