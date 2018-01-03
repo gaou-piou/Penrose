@@ -48,4 +48,13 @@ collections:
               - {label: "Greek intro text", name: "gr_intro", widget: "markdown"}
               - {label: "English button text", name: "en_btn", widget: "string"}
               - {label: "Greek button text", name: "gr_btn", widget: "string"}
+          -
+            label: "Page settings"
+            name: "page_content"
+            widget: "object"
+            fields:
+              - {label: "English title", name: "en_title", widget: "string"}
+              - {label: "Greek title", name: "gr_title", widget: "string"}
+              - {label: "English content", name: "en_content", widget: "markdown"}
+              - {label: "Greek content", name: "gr_content", widget: "markdown"}
 
