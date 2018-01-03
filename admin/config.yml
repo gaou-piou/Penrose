@@ -58,4 +58,43 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Content", name: "content", widget: "markdown"}
+  -
+    label: "Greek site"
+    name: "gr_site"
+    folder: "site/content"
+    create: false
+    filter: {field: "language", value: "gr"}
+    fields:
+      - {label: "Language", name: "language", widget: "select", options: ["en", "gr"]}
+      -
+        label: "Pages"
+        name: "pages"
+        delete: false
+        extension: "json"
+        editor: 
+          preview: false
+        files:
+          -
+            label: "Penrose page"
+            name: "penrose"
+            file: "site/content/penrose_gr.json"
+            fields:
+              -
+                label: "Navigation button text"
+                name: "nav_content"
+                widget: "string"
+              -
+                label: "Header settings"
+                name: "header_content"
+                widget: "object"
+                fields:
+                  - {label: "Intro text", name: "intro", widget: "markdown"}
+                  - {label: "Button text", name: "btn", widget: "string"}
+              -
+                label: "Page settings"
+                name: "page_content"
+                widget: "object"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Content", name: "content", widget: "markdown"}
 
