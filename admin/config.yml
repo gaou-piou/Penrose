@@ -22,6 +22,10 @@ collections:
   -
     label: "Pages"
     name: "pages"
+    delete: false
+    extension: "json"
+    editor: 
+      preview: false
     files:
       -
         label: "Penrose page"
