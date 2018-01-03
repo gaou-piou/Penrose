@@ -1,56 +1,56 @@
 backend:
-	name  : github
-	repo  : gaou-piou/Penrose
-	branch: master
+  name  : github
+  repo  : gaou-piou/Penrose
+  branch: master
 media_folder: "images/uploads"
 collections:
-	-
-		label : "Settings"
-		name  : "settings"
-		delete: false
-		extension: "json"
-		editor: 
-			preview: false
-		files:
-			-
-				label : "Site Settings"
-				name  : "general"
-				file  : "site/_data/settings.json"
-				fields: 
-					- {label: "Global site title", name: "site_title", widget: "string"}
-					- {label: "Global site description", name: "site_description", widget: "string"}
-	-
-		label: "English site"
-		name: "en_site"
-		delete: false
-		extension: "json"
-		editor: 
-			preview: false
-		files:
-			-
-				label: "Penrose page"
-				name: "penrose"
-				file: "site/content/penrose_en.json"
-				fields:
-					-
-						label: "Navigation button text"
-						name: "nav_content"
-						widget: "string"
-					-
-						label: "Header settings"
-						name: "header_content"
-						widget: "object"
-						fields:
-							- {label: "Intro text", name: "intro", widget: "markdown"}
-							- {label: "Button text", name: "btn", widget: "string"}
-					-
-						label: "Page settings"
-						name: "page_content"
-						widget: "object"
-						fields:
-							- {label: "Title", name: "title", widget: "string"}
-							- {label: "Content", name: "content", widget: "markdown"}
-					-
+  -
+    label : "Settings"
+    name  : "settings"
+    delete: false
+    extension: "json"
+    editor: 
+      preview: false
+    files:
+      -
+        label : "Site Settings"
+        name  : "general"
+        file  : "site/_data/settings.json"
+        fields: 
+          - {label: "Global site title", name: "site_title", widget: "string"}
+          - {label: "Global site description", name: "site_description", widget: "string"}
+  -
+    label: "English site"
+    name: "en_site"
+    delete: false
+    extension: "json"
+    editor: 
+      preview: false
+    files:
+      -
+        label: "Penrose page"
+        name: "penrose"
+        file: "site/content/penrose_en.json"
+        fields:
+          -
+            label: "Navigation button text"
+            name: "nav_content"
+            widget: "string"
+          -
+            label: "Header settings"
+            name: "header_content"
+            widget: "object"
+            fields:
+              - {label: "Intro text", name: "intro", widget: "markdown"}
+              - {label: "Button text", name: "btn", widget: "string"}
+          -
+            label: "Page settings"
+            name: "page_content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+          -
             label: "Services"
             name: 'services'
             folder: 'site/content/en/services'
@@ -61,12 +61,12 @@ collections:
               - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
               - {label: "Excerpt", name: "excerpt", widget: "text"}
               - {label: "Body", name: "body", widget: "markdown"}
-			-
-				label: "GDPR page"
-				name: "gdbr"
-				file: "site/content/gdbr_en.json"
-				fields:
-					-
-						label: "Navigation button text"
-						name: "nav_content"
-						widget: "string"
+      -
+        label: "GDPR page"
+        name: "gdbr"
+        file: "site/content/gdbr_en.json"
+        fields:
+          -
+            label: "Navigation button text"
+            name: "nav_content"
+            widget: "string"
