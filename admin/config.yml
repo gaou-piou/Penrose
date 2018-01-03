@@ -22,11 +22,10 @@ collections:
   -
     label: "English site"
     name: "en_site"
-    folder: "site/content"
-    create: false
-    filter: {field: "language", value: "en"}
-    fields:
-      - {label: "Language", name: "language", widget: "select", options: ["en", "gr"]}
+    delete: false
+    editor: 
+          preview: false
+    files:
       -
         label: "Pages"
         name: "pages"
@@ -65,11 +64,10 @@ collections:
   -
     label: "Greek site"
     name: "gr_site"
-    folder: "site/content"
-    create: false
-    filter: {field: "language", value: "gr"}
-    fields:
-      - {label: "Language", name: "language", widget: "select", options: ["en", "gr"]}
+    delete: false
+    editor: 
+          preview: false
+    files:
       -
         label: "Pages"
         name: "pages"
