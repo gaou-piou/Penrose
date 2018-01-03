@@ -44,8 +44,8 @@ collections:
             name: "header_content"
             widget: "object"
             fields:
-              - {label: "English intro text", name: "en_text", widget: "text"}
-              - {label: "Greek intro text", name: "gr_text", widget: "text"}
-              - {label: "English button text", name: "en_text", widget: "string"}
-              - {label: "Greek button text", name: "gr_text", widget: "string"}
+              - {label: "English intro text", name: "en_intro", widget: "text"}
+              - {label: "Greek intro text", name: "gr_intro", widget: "text"}
+              - {label: "English button text", name: "en_btn", widget: "string"}
+              - {label: "Greek button text", name: "gr_btn", widget: "string"}
 
