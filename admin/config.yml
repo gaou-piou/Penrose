@@ -30,7 +30,7 @@ collections:
       -
         label: "Penrose page"
         name: "penrose"
-        file: "site/content/penrose_en.json"
+        file: "site/_content/_en/penrose.json"
         fields:
           -
             label: "Navigation button text"
@@ -53,7 +53,7 @@ collections:
       -
         label: "GDPR page"
         name: "gdbr"
-        file: "site/content/gdbr_en.json"
+        file: "site/_content/_en/gdbr.json"
         fields:
           -
             label: "Navigation button text"
@@ -62,7 +62,7 @@ collections:
   -
     label: "Services"
     name: 'services'
-    folder: 'site/content/en/services'
+    folder: 'site/_content/_en/services'
     create: true
 	extension: "json"
     fields:
