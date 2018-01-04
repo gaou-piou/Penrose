@@ -304,11 +304,19 @@ a {
       -ms-user-select: none;
           user-select: none;
 }
+b,
+strong,
+font-weight inherit,
+font-weight bolder,
+dfn {
+  font-style: normal;
+}
 h2 {
   font-size: 1.916666666666667rem;
 }
 .PageContent {
-  padding: 3.333333333333333rem 0;
+  padding: 3.333333333333333rem 0 0;
+  min-height: calc(100vh - 512px);
 }
 .animready-enter-active,
 .animready-leave-active {
