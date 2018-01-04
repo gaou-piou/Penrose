@@ -50,17 +50,6 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Content", name: "content", widget: "markdown"}
-          -
-            label: "Services"
-            name: 'services'
-            folder: 'site/content/en/services'
-            create: true
-            fields:
-              - {label: "Icon", name: "icon", widget: "image"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-              - {label: "Excerpt", name: "excerpt", widget: "text"}
-              - {label: "Body", name: "body", widget: "markdown"}
       -
         label: "GDPR page"
         name: "gdbr"
@@ -70,3 +59,14 @@ collections:
             label: "Navigation button text"
             name: "nav_content"
             widget: "string"
+  -
+    label: "Services"
+    name: 'services'
+    folder: 'site/content/en/services'
+    create: true
+    fields:
+      - {label: "Icon", name: "icon", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
