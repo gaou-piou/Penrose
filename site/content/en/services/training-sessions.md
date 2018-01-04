@@ -1,9 +1,10 @@
 ---
-icon: /images/uploads/fish.png
+icon: /images/uploads/it.png
 title: Training Sessions
-subtitle: Regular Personnel
+subtitle: IT Personnel
 excerpt: |-
-  Client Side - Social
-  Engineering Attacks
+  Hardening Infrastructure,
+  Web Portals, Web Servers,
+  Web Applications
 ---
 test
