@@ -237,6 +237,9 @@ wbr::after {
 .text--color-white {
   color: #fff;
 }
+.text--color-butterscotch {
+  color: #faaf3a;
+}
 .text--size-14 {
   font-size: 1.166666666666667rem;
 }
@@ -275,6 +278,12 @@ html {
 }
 body {
   font-size: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 button,
 a,
@@ -294,6 +303,12 @@ a {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+h2 {
+  font-size: 1.916666666666667rem;
+}
+.PageContent {
+  padding: 3.333333333333333rem 0;
 }
 .animready-enter-active,
 .animready-leave-active {
