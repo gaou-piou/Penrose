@@ -316,7 +316,12 @@ h2 {
 }
 .PageContent {
   padding: 3.333333333333333rem 0 0;
-  min-height: calc(100vh - 512px);
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+}
+.PageContent h2.title {
+  margin: 0;
 }
 .animready-enter-active {
   -webkit-transition: opacity 0.15s 0.3s ease-out;
