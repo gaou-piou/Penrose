@@ -84,3 +84,11 @@ collections:
               - {label: "Icon", name: "icon", widget: "image"}
               - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
               - {label: "Excerpt", name: "excerpt", widget: "text"}
+          -
+            label: "FAQS"
+            name: 'faqs'
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "markdown"}
+              
