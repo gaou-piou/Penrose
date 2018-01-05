@@ -318,13 +318,15 @@ h2 {
   padding: 3.333333333333333rem 0 0;
   min-height: calc(100vh - 512px);
 }
-.animready-enter-active,
-.animready-leave-active {
-  -webkit-transition: opacity 0.15s ease-out;
-  transition: opacity 0.15s ease-out;
+.animready-enter-active {
+  -webkit-transition: opacity 0.15s 0.3s ease-out;
+  transition: opacity 0.15s 0.3s ease-out;
 }
 .animready-enter,
-.animready-leave-to {
+.animready-leave {
+  opacity: 0;
+}
+.blink {
   opacity: 0;
 }
 
