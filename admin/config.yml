@@ -69,3 +69,17 @@ collections:
             label: "Navigation button text"
             name: "nav_content"
             widget: "string"
+          -
+            label: "Page settings"
+            name: "page_content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+          -
+            label: "Sections"
+            name: 'sections'
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "text"}
+              - {label: "Icon", name: "icon", widget: "image"}
+              - {label: "Excerpt", name: "excerpt", widget: "text"}
