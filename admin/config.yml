@@ -62,8 +62,8 @@ collections:
               - {label: "Body", name: "body", widget: "markdown"}
       -
         label: "GDPR page"
-        name: "gdbr"
-        file: "site/_content/_en/gdbr.json"
+        name: "gdpr"
+        file: "site/_content/_en/gdpr.json"
         fields:
           -
             label: "Navigation button text"
@@ -91,4 +91,3 @@ collections:
             fields:
               - {label: "Question", name: "question", widget: "string"}
               - {label: "Answer", name: "answer", widget: "markdown"}
-              
