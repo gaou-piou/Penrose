@@ -82,4 +82,5 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "text"}
               - {label: "Icon", name: "icon", widget: "image"}
+              - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
               - {label: "Excerpt", name: "excerpt", widget: "text"}
