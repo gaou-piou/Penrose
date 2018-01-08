@@ -2,6 +2,9 @@ backend:
   name  : github
   repo  : gaou-piou/Penrose
   branch: master
+  accept_roles:
+    - admin
+    - editor
 media_folder: "images/uploads"
 collections:
   -
