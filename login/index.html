@@ -8,9 +8,8 @@
 </head>
 
 <body>
-	<!-- <div data-netlify-identity-button>Login with Netlify Identity</div> -->
+	<div data-netlify-identity-button>Login with Netlify Identity</div>
 	<!-- Include the script that builds the page and powers Netlify CMS -->
-	<div id="netlify-modal"></div>
 	<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </body>
 <script>
@@ -19,7 +18,7 @@
 	});
 
 	// netlifyIdentity.open(); // open the modal
-	netlifyIdentity.open("login"); // open the modal to the login tab
+	// netlifyIdentity.open("login"); // open the modal to the login tab
 	// netlifyIdentity.open("signup"); // open the modal to the signup tab
 
 	netlifyIdentity.on("init", user => console.log(user));
@@ -38,7 +37,7 @@
 	// Access the underlying gotrue instance.
 	// Note that doing things directly through gotrue brings a risk of getting out of
 	// sync between your state and the widgets state.
-	netlifyIdentity.gotrue;
+	// netlifyIdentity.gotrue;
 </script>
 
 </html>
