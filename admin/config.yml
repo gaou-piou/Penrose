@@ -2,7 +2,6 @@ backend:
   name  : github
   repo  : gaou-piou/Penrose
   branch: master
-  base_url: 'https://penrose.netlify.com/login'
 media_folder: "images/uploads"
 collections:
   -
