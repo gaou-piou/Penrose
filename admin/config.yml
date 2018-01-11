@@ -16,9 +16,12 @@ collections:
         label : "Site Settings"
         name  : "general"
         file  : "site/_data/settings.json"
-        fields: 
+        fields:
           - {label: "Global site title", name: "site_title", widget: "string"}
           - {label: "Global site description", name: "site_description", widget: "string"}
+          - {label: "Medium social url", name: "medium_url", widget: "string"}
+          - {label: "Hackerone social url", name: "hackerone_url", widget: "string"}
+          - {label: "Bugcrowd social url", name: "bugcrowd_url", widget: "string"}
   -
     label: "English site"
     name: "en_site"
