@@ -103,9 +103,9 @@ collections:
       preview: false
     files:
       -
-        label: "Penrose page"
+        label: "Test"
         name: "penrose_el"
-        file: "site/_content/_el/penrose.json"
+        file: "site/_content/_el/test.json"
         fields:
           -
             label: "Navigation button text"
