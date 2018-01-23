@@ -104,7 +104,7 @@ collections:
     files:
       -
         label: "Test"
-        name: "penrose_el"
+        name: "test"
         file: "site/_content/_el/test.json"
         fields:
           -
