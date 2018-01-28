@@ -10,7 +10,7 @@
       "excerpt": ""
     },
     {
-      "title": "Πολιτική\nΑσφαλείας",
+      "title": "Privacy Policy",
       "icon": "/images/uploads/id.png",
       "excerpt": ""
     },
@@ -24,8 +24,9 @@
       "subtitle": ""
     },
     {
-      "title": "Εκπαίδευση\nΠροσωπικού",
-      "icon": "/images/uploads/lessons.png"
+      "title": "Personnel Training",
+      "icon": "/images/uploads/lessons.png",
+      "excerpt": "Our team is already providing training courses for privacy and GDPR. Contact us to learn more for our training options."
     }
   ],
   "faqs": [
