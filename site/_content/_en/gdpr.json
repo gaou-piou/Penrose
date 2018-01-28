@@ -7,21 +7,23 @@
     {
       "title": "Privacy Impact\nAssessment",
       "icon": "/images/uploads/radar.png",
-      "excerpt": ""
+      "excerpt": "Use our team to analyze your privacy demands, record which and where personal data are used in your systems and create a list of the most important privacy risks. The privacy impact assessment is the first and most important step to minimize the privacy risks of your company. "
     },
     {
       "title": "Privacy Policy",
       "icon": "/images/uploads/id.png",
-      "excerpt": ""
+      "excerpt": "Let us design your Privacy Policy using our team of experts. The policy will help you define all process that regards personal data, from creation, usage, disclosure to the generic flow across your systems. The Privacy Policy is an essential step in GDPR to help you protect from incidents and legal issues."
     },
     {
       "title": "Virtual DPO\nService",
-      "icon": "/images/uploads/shield.png"
+      "icon": "/images/uploads/shield.png",
+      "excerpt": "Data Privacy Officers is a position introduced in GDPR as a person who oversee all privacy procedures in a company. Our team includes highly experienced personnel of Privacy Practitioners who can overtake that position and help you implement GDPR requirements."
     },
     {
       "title": "Incident\nResponse",
       "icon": "/images/uploads/alarm.png",
-      "subtitle": ""
+      "subtitle": "",
+      "excerpt": "According to GDPR, companies have a 72 hours’ time frame to respond to any data breach incident. Penrose can help you navigate across the procedures, be in contact with the Data Protection Authorities and overtake the whole process for you."
     },
     {
       "title": "Personnel Training",
