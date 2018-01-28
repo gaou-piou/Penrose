@@ -1,1 +1,45 @@
-{"nav_content":"Back to","page_content":{"title":"What Is It All About?"},"sections":[{"title":"Privacy Impact\nAssessment","icon":"/images/uploads/radar.png","excerpt":""},{"title":"Πολιτική\nΑσφαλείας","icon":"/images/uploads/id.png","excerpt":""},{"title":"Virtual DPO\nService","icon":"/images/uploads/shield.png"},{"title":"Incident\nResponse","icon":"/images/uploads/alarm.png","subtitle":""},{"title":"Εκπαίδευση\nΠροσωπικού","icon":"/images/uploads/lessons.png"}],"faqs":[{"question":"Ποιο είναι όμως το πραγματικό αντικείμενο του Ευρωπαϊκού Κανονισμού 2016/679;","answer":"Ο πραγματικός σκοπός του κανονισμού είναι η\rδιαμόρφωση ενός ενιαίου νομικού πλαισίου για την\rεπεξεργασία προσωπικών δεδομένων στα κράτη μέλη\rτης Ευρωπαϊκής Ένωσης. Φυσικά, αυτό θέτει μία\rσειρά νέων περιορισμών και νέων υποχρεώσεων προς \rτις επιχειρήσεις. Συνοπτικά μερικές από τις\rυποχρεώσεις αφορούν:\r\n\n* Την **επεξεργασία** των προσωπικών δεδομένων σε όλο\rτον κύκλο ζωής τους, από τη συλλογή έως και την\rκαταστροφή τους\n* Την **προστασία** των δικαιωμάτων των φυσικών προσώπων\n* Την **ασφάλεια** (εμπιστευτικότητα, ακεραιότητα,\rδιαθεσιμότητα) των προσωπικών δεδομένων\n* Τις **ενέργειες γνωστοποίησης** που οφείλει να κάνει η\rεπιχείρηση σε περίπτωση παραβίασης των\rσυστημάτων της\n\nΣε περίπτωση παράβασης προβλέπονται σημαντικά\rαυξημένα πρόστιμα, που ανάλογα με το είδος και\rτο μέγεθός της επιχείρησης, φθάνουν έως τα\r20 εκατομμύρια ευρώ ή το 4% του παγκόσμιου\rετήσιου κύκλου εργασιών της."},{"question":"Ποιες επιχειρήσεις αφορά;","answer":"Όλες τις ιδιωτικές και δημόσιες επιχειρήσεις, καθώς\rκαι τις κρατικές αρχές που διαχειρίζονται δεδομένα\rπροσωπικού χαρακτήρα πελατών, πελατών των\rπελατών τους, εργαζομένων, συνεργατών ή άλλων\rφυσικών προσώπων, εφόσον τα δεδομένα αφορούν\rΕυρωπαίους πολίτες."},{"question":"Ποια ορίζονται ως Προσωπικά κ Ευαίσθητα Προσωπικά Δεδομένα;","answer":"Ως **προσωπικά δεδομένα** ορίζουμε κάθε πληροφορία που αφορά και μπορεί να περιγράψει ένα άτομο, από στοιχεία όπως ονοματεπώνυμο, ηλικία, επάγγελμα έως το κινητό τηλέφωνο, το email, τα φυσικά χαρακτηριστικά, τα ενδιαφέροντα, οι δραστηριότητες, κλπ. \n\nΜια κατηγορία προσωπικών δεδομένων που ξεχωρίζουν είναι τα **ευαίσθητα δεδομένα**, δηλαδή  οι πληροφορίες που αναφέρονται στη φυλετική ή εθνική προέλευση, στα πολιτικά φρονήματα, στις θρησκευτικές ή φιλοσοφικές πεποιθήσεις, στη συμμετοχή σε συνδικαλιστική οργάνωση, στην υγεία και στην κοινωνική πρόνοια, στην ερωτική ζωή, τις ποινικές διώξεις και καταδίκες του, καθώς και στη συμμετοχή σε συναφείς ενώσεις προσώπων. \n\nΟ Ευρωπαϊκός Κανονισμός 2016/679 GDPR ξεχωρίζει τα ευαίσθητα δεδομένα απαιτώντας αυστηρότερες ρυθμίσεις συγκριτικά με τα απλά προσωπικά δεδομένα."}]}
+{
+  "nav_content": "Back to",
+  "page_content": {
+    "title": "What Is It All About?"
+  },
+  "sections": [
+    {
+      "title": "Privacy Impact\nAssessment",
+      "icon": "/images/uploads/radar.png",
+      "excerpt": ""
+    },
+    {
+      "title": "Πολιτική\nΑσφαλείας",
+      "icon": "/images/uploads/id.png",
+      "excerpt": ""
+    },
+    {
+      "title": "Virtual DPO\nService",
+      "icon": "/images/uploads/shield.png"
+    },
+    {
+      "title": "Incident\nResponse",
+      "icon": "/images/uploads/alarm.png",
+      "subtitle": ""
+    },
+    {
+      "title": "Εκπαίδευση\nΠροσωπικού",
+      "icon": "/images/uploads/lessons.png"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the actual purpose of the new General Data Privacy Regulation EC 2016/679?",
+      "answer": "The new regulation aims to establish a single legal framework for the processing of personal data across the Member States of the European Union. GDPR sets a series of new restrictions and new obligations on businesses which include but are not limited to: \n\n* The **processing of personal data** throughout its life cycle, from collection to destruction\n* The **protection** the rights of individuals\n* The **security** (privacy, integrity, availability) of personal data\n* The **disclosure of any event** of a personal data breach \n\nIn the event of a breach, substantial increased fines are foreseen, which, depending on the type and size of the business, reach up to 20 million euros or 4% of its worldwide annual turnover."
+    },
+    {
+      "question": "Which businesses are affected?",
+      "answer": "All private and public enterprises, as well as government authorities that manage personal data of customers, customers of their customers, employees, associates or other natural persons, if the data concern European citizens."
+    },
+    {
+      "question": "What is considered as personal data?",
+      "answer": "We designate as **personal data** any information that is relevant to and can describe a person, such as name, age, occupation to mobile phone, email, physical characteristics, interests, activities, etc.\n\nA special category of personal data is **sensitive data**, i.e. information on racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, health and welfare, sex life or sexual orientation, criminal prosecutions and convictions, as well as participation in related associations of persons.\n\nEuropean Regulation 2016/679 GDPR distinguishes sensitive data by requiring stricter settings than personal data.\n"
+    }
+  ]
+}
