@@ -1,7 +1,6 @@
 backend:
-  name  : git-gateway
+  name  : github
   repo  : gaou-piou/Penrose
-  branch: master
 media_folder: "images/uploads"
 collections:
   -
