@@ -1,14 +1,15 @@
 backend:
   name  : github
   repo  : gaou-piou/Penrose
+  branch: master 
 media_folder: "images/uploads"
 collections:
   -
-    label : "Settings"
-    name  : "settings"
-    delete: false
-    extension: "json"
-    editor: 
+    label     : "Settings"
+    name      : "settings"
+    delete    : false
+    extension : "json"
+    editor    : 
       preview: false
     files:
       -
