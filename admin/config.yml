@@ -99,6 +99,8 @@ collections:
     name: "gr_site"
     delete: false
     extension: "json"
+    editor: 
+      preview: false
     files:
       -
         label: "Penrose page"
