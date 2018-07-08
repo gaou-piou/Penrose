@@ -3,12 +3,14 @@ backend:
   name: github
   repo: gaou-piou/Penrose
 media_folder: "images/uploads"
+display_url: https://www.penrose.gr
 collections:
-  - label: "Settings"
+  -
+    label: "Settings"
     name: "settings"
     delete: false
     extension: "json"
-    editor: 
+    editor:
       preview: false
     files:
       -
@@ -26,7 +28,7 @@ collections:
     name: "en_site"
     delete: false
     extension: "json"
-    editor: 
+    editor:
       preview: false
     files:
       -
