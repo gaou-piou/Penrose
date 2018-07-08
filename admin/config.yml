@@ -4,8 +4,7 @@ backend:
   repo: gaou-piou/Penrose
 media_folder: "images/uploads"
 collections:
-  -
-    label: "Settings"
+  - label: "Settings"
     name: "settings"
     delete: false
     extension: "json"
