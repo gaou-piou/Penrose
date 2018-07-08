@@ -5,8 +5,7 @@ backend:
 media_folder: "images/uploads"
 display_url: https://www.penrose.gr
 collections:
-	-
-		label: "Settings"
+	- label: "Settings"
 		name: "settings"
 		delete: false
 		extension: "json"
